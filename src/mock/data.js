@@ -10,30 +10,30 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Micah Pearce',
+  subtitle: "I'm the Unknown Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'mpearce.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'banner.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://nighthawk451.github.io/ztm-startup-of-the-year/',
+    repo: 'https://github.com/NightHawk451/ztm-startup-of-the-year', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -65,25 +65,25 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/NightHawk451/',
     },
   ],
 };
